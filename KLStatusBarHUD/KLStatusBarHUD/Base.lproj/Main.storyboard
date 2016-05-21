@@ -14,13 +14,54 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="BeS-pe-5XQ">
+                                <rect key="frame" x="137" y="198.5" width="100" height="270"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="87B-Ed-orK">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="30"/>
+                                        <state key="normal" title="Show Success"/>
+                                        <connections>
+                                            <action selector="ShowSuccess:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lei-K7-JSv"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ax-x0-Wtv">
+                                        <rect key="frame" x="12" y="80" width="76" height="30"/>
+                                        <state key="normal" title="Show Error"/>
+                                        <connections>
+                                            <action selector="ShowError:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z9z-6i-mkR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P2W-fw-SH1">
+                                        <rect key="frame" x="22" y="160" width="55" height="30"/>
+                                        <state key="normal" title="Loading"/>
+                                        <connections>
+                                            <action selector="Loading:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xWZ-Tm-MpS"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FbS-Uh-hWb">
+                                        <rect key="frame" x="25" y="240" width="50" height="30"/>
+                                        <state key="normal" title="Hidden"/>
+                                        <connections>
+                                            <action selector="Hidden:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7g6-eh-Kit"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BeS-pe-5XQ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Scd-sv-i1G"/>
+                            <constraint firstItem="BeS-pe-5XQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d8z-jP-oXe"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="244.5" y="296.5"/>
         </scene>
     </scenes>
 </document>

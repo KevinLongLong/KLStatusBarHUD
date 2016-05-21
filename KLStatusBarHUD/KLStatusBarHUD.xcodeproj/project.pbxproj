@@ -8,24 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		030D0BEA1CF0AF68004F805C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D0BE91CF0AF68004F805C /* main.m */; };
-		030D0BED1CF0AF68004F805C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D0BEC1CF0AF68004F805C /* AppDelegate.m */; };
-		030D0BF01CF0AF68004F805C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D0BEF1CF0AF68004F805C /* ViewController.m */; };
 		030D0BF31CF0AF68004F805C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030D0BF11CF0AF68004F805C /* Main.storyboard */; };
 		030D0BF51CF0AF68004F805C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030D0BF41CF0AF68004F805C /* Assets.xcassets */; };
 		030D0BF81CF0AF68004F805C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030D0BF61CF0AF68004F805C /* LaunchScreen.storyboard */; };
+		030D0C061CF0B4AA004F805C /* KLStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D0C051CF0B4AA004F805C /* KLStatusBarHUD.m */; };
+		030D0C0C1CF0B4B5004F805C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D0C091CF0B4B5004F805C /* AppDelegate.m */; };
+		030D0C0D1CF0B4B5004F805C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D0C0B1CF0B4B5004F805C /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		030D0BE51CF0AF68004F805C /* KLStatusBarHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLStatusBarHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		030D0BE91CF0AF68004F805C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		030D0BEB1CF0AF68004F805C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		030D0BEC1CF0AF68004F805C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		030D0BEE1CF0AF68004F805C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		030D0BEF1CF0AF68004F805C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		030D0BF21CF0AF68004F805C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		030D0BF41CF0AF68004F805C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		030D0BF71CF0AF68004F805C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		030D0BF91CF0AF68004F805C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030D0C041CF0B4AA004F805C /* KLStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLStatusBarHUD.h; sourceTree = "<group>"; };
+		030D0C051CF0B4AA004F805C /* KLStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLStatusBarHUD.m; sourceTree = "<group>"; };
+		030D0C081CF0B4B5004F805C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		030D0C091CF0B4B5004F805C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		030D0C0A1CF0B4B5004F805C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		030D0C0B1CF0B4B5004F805C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +61,8 @@
 		030D0BE71CF0AF68004F805C /* KLStatusBarHUD */ = {
 			isa = PBXGroup;
 			children = (
-				030D0BEB1CF0AF68004F805C /* AppDelegate.h */,
-				030D0BEC1CF0AF68004F805C /* AppDelegate.m */,
-				030D0BEE1CF0AF68004F805C /* ViewController.h */,
-				030D0BEF1CF0AF68004F805C /* ViewController.m */,
-				030D0BF11CF0AF68004F805C /* Main.storyboard */,
-				030D0BF41CF0AF68004F805C /* Assets.xcassets */,
-				030D0BF61CF0AF68004F805C /* LaunchScreen.storyboard */,
-				030D0BF91CF0AF68004F805C /* Info.plist */,
+				030D0C071CF0B4B5004F805C /* Classes */,
+				030D0C031CF0B4AA004F805C /* StatusBarHUD */,
 				030D0BE81CF0AF68004F805C /* Supporting Files */,
 			);
 			path = KLStatusBarHUD;
@@ -74,9 +71,33 @@
 		030D0BE81CF0AF68004F805C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				030D0BF11CF0AF68004F805C /* Main.storyboard */,
+				030D0BF41CF0AF68004F805C /* Assets.xcassets */,
+				030D0BF61CF0AF68004F805C /* LaunchScreen.storyboard */,
+				030D0BF91CF0AF68004F805C /* Info.plist */,
 				030D0BE91CF0AF68004F805C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		030D0C031CF0B4AA004F805C /* StatusBarHUD */ = {
+			isa = PBXGroup;
+			children = (
+				030D0C041CF0B4AA004F805C /* KLStatusBarHUD.h */,
+				030D0C051CF0B4AA004F805C /* KLStatusBarHUD.m */,
+			);
+			path = StatusBarHUD;
+			sourceTree = "<group>";
+		};
+		030D0C071CF0B4B5004F805C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				030D0C081CF0B4B5004F805C /* AppDelegate.h */,
+				030D0C091CF0B4B5004F805C /* AppDelegate.m */,
+				030D0C0A1CF0B4B5004F805C /* ViewController.h */,
+				030D0C0B1CF0B4B5004F805C /* ViewController.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +171,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				030D0BF01CF0AF68004F805C /* ViewController.m in Sources */,
-				030D0BED1CF0AF68004F805C /* AppDelegate.m in Sources */,
+				030D0C0D1CF0B4B5004F805C /* ViewController.m in Sources */,
+				030D0C061CF0B4AA004F805C /* KLStatusBarHUD.m in Sources */,
+				030D0C0C1CF0B4B5004F805C /* AppDelegate.m in Sources */,
 				030D0BEA1CF0AF68004F805C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +323,7 @@
 				030D0BFE1CF0AF68004F805C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
